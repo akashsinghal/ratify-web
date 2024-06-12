@@ -26,7 +26,6 @@ cat <<EOF > ./trustpolicy.json
               "ghcr.io/ratify-project/ratify-dev",
               "ghcr.io/ratify-project/ratify-base-dev",
               "ghcr.io/ratify-project/ratify-crds-dev",
-
             ],
             "signatureVerification": {
                 "level" : "strict" 
