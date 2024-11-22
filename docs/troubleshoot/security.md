@@ -48,7 +48,7 @@ notation verify ghcr.io/ratify-project/ratify:v1.4.0
 notation verify ghcr.io/ratify-project/ratify-dev:latest
 ```
 
-Sample output of `verify`:
+Sample output of `verify` for ratify dev image:
 
 ```shell
 Warning: Always verify the artifact using digest(@sha256:...) rather than a tag(:latest) because resolved digest may not point to the same signed artifact, as tags are mutable.
