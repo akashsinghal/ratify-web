@@ -63,7 +63,7 @@ A keyless signature is published per image. The signature is uploaded to the Rek
 
 ```shell
 cosign verify \
-  --certificate-identity "https://github.com/ratify-project/ratify/.github/workflows/publish-dev-assets.yml@refs/heads/dev" \
+  --certificate-identity-regexp "https://github.com/ratify-project/ratify/.github/workflows/publish-package.yml@*" \
   --certificate-oidc-issuer https://token.actions.githubusercontent.com \
   --certificate-github-workflow-repository ratify-project/ratify \
   ghcr.io/ratify-project/ratify:v1.4.0
